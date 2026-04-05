@@ -114,18 +114,21 @@ function MyChat() {
         }}
       >
         <div
-          style={{
-            height: "100%",
-            minHeight: "620px",
-            background: "#ffffff",
-            border: "1px solid #e5e7eb",
-            borderRadius: "24px",
-            overflow: "hidden",
-            boxShadow: "0 10px 30px rgba(0,0,0,0.06)",
-          }}
-        >
-          <ChatKit control={control} className="h-[620px] w-[100%]" />
-        </div>
+  style={{
+    height: "620px",
+    width: "100%",
+    background: "#ffffff",
+    border: "1px solid #e5e7eb",
+    borderRadius: "24px",
+    overflow: "hidden",
+    boxShadow: "0 10px 30px rgba(0,0,0,0.06)",
+  }}
+>
+  <ChatKit
+    control={control}
+    style={{ height: "100%", width: "100%" }}
+  />
+</div>
       </div>
     </div>
   );
