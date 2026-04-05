@@ -5,7 +5,7 @@ function MyChat() {
     api: {
       async getClientSecret(existing) {
         const res = await fetch(
-          "https://fictional-train-694jv799v4vwc9w9-8000.app.github.dev/api/chatkit/session",
+          "https://real-estate-ai-agent-backend.onrender.com/api/chatkit/session",
           {
             method: "POST",
             headers: {
