@@ -80,9 +80,9 @@ function MyChat() {
           }}
         >
           {[
-            "Vendor obligations",
+            "Sales obligations",
             "AML/CTF checks",
-            "Negotiation guidance",
+            "Property management guidance",
             "Legal compliance",
           ].map((item) => (
             <span
