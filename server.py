@@ -11,6 +11,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://real-estate-ai-agent-lac.vercel.app",
         "https://fictional-train-694jv799v4vwc9w9-5173.app.github.dev",
         "https://fictional-train-694jv799v4vwc9w9-5174.app.github.dev",
     ],
